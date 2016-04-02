@@ -1,56 +1,19 @@
-conatct.html
+contacts-psd-to-html-media-min
+==================
+__Slim Contacts Form jQuery for inspiration__
 
-## Installation:
+* Mobile First (media-min queries)
+* Psd to Html
+* Bootstrap Grid (12 column)
+* Jade, Less, Npm, Bower, Grunt, Psd
+* Final project in __dist__ folder
+* Using Balsamiq Mockups
 
-1. `npm install`
+##### Цель данной работы: 
 
-2. `bower install`
+* Вёрстка __psd__ макета
+* Реализация принципа Mobile First
+* Psd-макет находится в __src/assets__ folder
 
-## Build tasks
+![Contacts PSD Mockup](http://res.cloudinary.com/comm1t/image/upload/v1459595193/contact_self_strtww.png)
 
-`grunt:copy`
-`grunt`
-`grunt:prod`
-
-## File & Folder structure
-
-* **dist/**
-    * **css/**
-        * piatto.min.css
-    * **js/**
-        * app.min.js
-        * wow.min.js
-    * **fonts/** *(@font-face)* chunkfive-webfont
-    * **fav/** *(favicons)*
-    * **images** *(optimized images)*
-    * **assets** *(photohop sources)*
-    * index.html
-    * browserconfig.xml *(favicons config)*
-
-## Checklist
-https://www.forgett.com/checklist/2725109886
-
-## Static Pages (the final work)
-http://kt815.bitbucket.org/piatto.psd/
-
-## Вёрстка макета
-
-* **PSD Макет** находиться по ссылке http://goo.gl/S6UeJ7
-* **Исходный код на bitbucket**: https://goo.gl/VF3BqJ
-* В качестве менеджера задач используется **grunt**
-* Выполнена **HTML верстка** макета
-* Основные инструменты Jade, Less, Npm, Bower, Grunt + tasks, Git, Photoshop
-* В вёрстке использовались **HTML5, CSS3, jQuery, Bootstap, Animate.css**
-* **Bootstrap 3.3.5 only grid and responsive, normalize.css**: https://goo.gl/7bCU4r
-* Кросс-браузерный **@font-face**
-* Добавлены **favicons для разных устройств, браузеров, ОС**
-* **Анимация**: при прокуртке страницы; при наведении на изображение
-* Responsive вёрстка
-* **jQuery**, jquery.leanModal.js, browser window scroll + "back to top"
-* **Блочная** (div)
-* **Кроссбраузерность**: IE8+ (тестировался на виртуальных машинах Microsoft https://goo.gl/tgmy6L), Chrome, Firefox, Opera, Safari 5+
-* Валидно (**W3C**)
-* **SEO-friendly**
-* **Оптимизация** (конкатенация css и js; минимизация css, js, html; спрайты для мелких изображений; оптимизация для изображений)
-* **Верстка под мобильные** устройства (iOS, Android, Windows, т.д.)
-* Вёрстка БЭМ. Блок, Элемент, Модификатор
