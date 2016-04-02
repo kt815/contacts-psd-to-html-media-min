@@ -1,0 +1,46 @@
+﻿section.forma__section
+  .container
+    .row
+      .col-lg-6.col-md-6.col-sm-6.col-xs-12
+        label.first_name.forma__section_label(for='first_name')
+          span.first_name(data-validation='first_name')
+            span.min.name.none.red Length must be at least 3 characters
+            br
+        .clear-block
+          input#name.clearable.forma__section_input(value='', name='name', placeholder='Please provide your first name *', type='text')
+          span.clear-button.none X          
+      .col-lg-6.col-md-6.col-sm-6.col-xs-12
+        label.last_name.forma__section_label(for='last_name')
+          span.last_name
+            span.min.lastname.none.red Length must be at least 3 characters
+            br
+        .clear-block
+          input#lastname.clearable.forma__section_input(value='', name='lastname', placeholder='Please provide your last name *', type='text')
+          span.clear-button.none X
+    .row
+      .col-lg-6.col-md-6.col-sm-6.col-xs-12
+        label.email.forma__section_label(for='email')
+          span.email
+            span.min.email.none.red Invalid email address
+            br
+        .clear-block
+          input#email.clearable.forma__section_input(name='email', placeholder='Please provide your new email address *', type='text')
+          span.clear-button.none X          
+      .col-lg-6.col-md-6.col-sm-6.col-xs-12
+        label.subject.forma__section_label(for='subject')
+          span.subject
+            span.min.subject.none.red Length must be at least 3 characters
+            br
+        .clear-block
+          input#subject.clearable.forma__section_input(value='', name='subject', placeholder='Please provide the subject for your enquiry *', type='text')
+          span.clear-button.none X  
+    .row
+      .column
+        label.message.forma__section_label(for='enquiry')
+          span.enquiry
+            span.min.message.none.red Length must be at least 10 characters
+            br
+        .clear-block
+          textarea#message.clearable.forma__section_textarea(name='message', placeholder='Please provide your enquiry *', style='height: 10rem; ')
+          span.clear-button.none X
+    input.small.button.forma__section_submit(value='SEND ENQUIRY', type='submit')

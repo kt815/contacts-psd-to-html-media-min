@@ -1,0 +1,21 @@
+﻿header.headerline__header
+  .container-fluid
+    .row-fluid
+      .col-lg-6.col-md-6.col-sm-5.col-xs-12.headerline__logo
+        .headerline__logo_background
+          a.headerline__logo_a(href='#') Contact Us
+      .col-lg-6.col-md-6.col-sm-7.col-xs-12.headerline__nav
+        nav
+          .headerline__search
+            .headerline__search_relative
+              input.headerline__search_input(name='q', placeholder='Search for...', value='', type='text')
+              a.searchButton.clickSubmit.headerline__search_a(href='#', data-target='#headerSearch')
+                i.fa.fa-search.headerline__search_icon
+          .headerline__cart 
+            a.headerline__cart_a(href='#')
+              i.fa.fa-shopping-basket.headerline__cart_icon
+              span.headerline__cart_span (0)         
+          .headerline__menu
+            a.headerline__menu_a(href='#')
+              i.fa.fa-.fa-navicon.headerline__menu_icon
+              span.headerline__menu_span Menu

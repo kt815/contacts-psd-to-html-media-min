@@ -1,0 +1,138 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+.headerline__search {
+	width: 66%;
+}
+
+.headerline__menu, 
+.headerline__cart {
+	width: 17%;
+}
+
+}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.headerline__search_icon {
+	font-size: 1rem;
+}
+
+
+.headerline__search {
+	width: 66%;
+}
+
+.headerline__menu, 
+.headerline__cart {
+	width: 17%;
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+.headerline__search_input {
+	display: none;	
+}
+
+.contentblock__section_h1 { 
+	font-size: @lineheight__text_h1;
+}
+
+
+.headerline__search, 
+.headerline__cart,  
+.headerline__menu {
+	border-top: 1px solid @color__headerline_1px-border;
+	border-right: 1px solid @color__headerline_1px-border;
+}
+
+.headerline__search_a {
+	width:100%;}
+
+.headerline__menu_span, 
+.headerline__search_input, 
+.headerline__cart_span {
+	display: none;
+}
+
+.headerline__search {
+	border-right: 1px solid @color__headerline_1px-border ! important;
+	text-align: center;
+}
+
+.headerline__search_a {
+    position: static;
+    display: inline-block;
+	line-height: @height_header;
+}
+
+.headerline__logo, 
+.headerline__search, 
+.headerline__cart,  
+.headerline__menu {
+	line-height: 3.7rem;
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+.headerline__logo_background {
+    background-position: center center;
+}
+
+.headerline__search, 
+.headerline__cart,  
+.headerline__menu {
+	border-top: 1px solid @color__headerline_1px-border;
+	border-right: 1px solid @color__headerline_1px-border;
+}
+
+.headerline__search_a {
+	width:100%;}
+
+.headerline__menu_span, 
+.headerline__search_input, 
+.headerline__cart_span {
+	display: none;
+}
+
+.headerline__search {
+	border-right: 1px solid @color__headerline_1px-border ! important;
+	text-align: center;
+}
+
+.headerline__search_a {
+    position: static;
+    display: inline-block;
+	line-height: @height_header;
+}
+
+.headerline__logo, 
+.headerline__search, 
+.headerline__cart,  
+.headerline__menu {
+	line-height: 3.7rem;
+}
+
+.contentblock__section_h1 { 
+	font-size: 2.125rem;
+}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+.contentblock__section_h1 { 
+	font-size: 2.125rem;
+}
+
+}

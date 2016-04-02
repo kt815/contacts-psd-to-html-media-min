@@ -1,0 +1,32 @@
+doctype html
+//- Optional IE8, IE9 Support
+!= "<!--[if IE 8]><html class=\"ie8\"><![endif]-->"
+!= "<!--[if IE 9]><html class=\"ie9\"><![endif]-->"
+//- Optional all Bowsers Support, except greater than IE 8
+!= "<!--[if gt IE 8]><!-->"
+html(lang='ru-RU')
+  != "<!--<![endif]-->"
+  head
+    meta(charset='utf-8')
+    //- meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name='description', content='Contact form like contact.us')
+    meta(name='author', content='contact.us')
+    meta(http-equiv='Cache-Control', content='no-cache, no-store, must-revalidate')
+    title Contact Form, MySQL, Css, Html, PHP, PSD
+    // build:css css/contact.min.css
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='css/app.css')
+    link(rel='stylesheet', type='text/css', href='css/contact.css')
+    // /build
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300', rel='stylesheet', type='text/css')
+
+    //- Optional less than IE8, IE9 Support
+    <!--[if lt IE 9]>
+    script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js")
+    <![endif]-->
+    <!--[if IE 8]>
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js")
+    <![endif]-->
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
