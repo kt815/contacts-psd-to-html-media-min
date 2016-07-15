@@ -1,7 +1,9 @@
 
+Some nodejs remarks
+==================
+* rimraf -rf node_modules
 * npm -v
 * npm install --save-dev
-* rimraf -rf node_modules
 * bower install
 
 
