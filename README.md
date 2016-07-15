@@ -1,3 +1,10 @@
+
+* npm -v
+* npm install --save-dev
+* rimraf -rf node_modules
+* bower install
+
+
 contacts-psd-to-html-media-min
 ==================
 __Slim Contacts Form jQuery for inspiration__
